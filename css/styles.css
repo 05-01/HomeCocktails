@@ -311,6 +311,19 @@ a {
     max-height: 100%; /* Permite que la imagen se escale */
   }
 }
+@media (max-width: 480px) {
+  .logo-celeste img {
+    position: absolute; /* Permite posicionar el logo de manera absoluta */
+    top: -50px !important; /* Alinea el logo en la parte superior */
+    left: -10px !important; /*a el logo a 20 píxeles de la izquierda */
+    padding: 10px; /* Espaciado opcional alrededor del logo */
+    z-index: 1003; /* Asegúrate de que esté por encima de otros elementos */
+    width: 130px !important; /*Eablece el ancho del logo */
+    height: 180px !important; /* Establece el alto del logo */
+    max-width: 100%; /* Permite que la imagen se escale */
+    max-height: 100%; /* Permite que la imagen se escale */
+  }
+}
 .header {
   position: relative;
   margin: -10px;
@@ -696,24 +709,24 @@ a {
     color: #2F3538;
   }
   .nav-otros li:nth-child(1) {
-    top: 85px !important;
-    left: -185px !important;
+    top: 95px !important;
+    left: -215px !important;
   }
   .nav-otros li:nth-child(2) {
-    top: 65px !important;
-    left: -215px !important;
+    top: 75px !important;
+    left: -235px !important;
   }
   .nav-otros li:nth-child(3) {
     top: 45px !important;
-    left: -245px !important;
+    left: -275px !important;
   }
   .nav-otros li:nth-child(4) {
     top: 20px !important;
-    left: -285px !important;
+    left: -305px !important;
   }
   .nav-otros li:nth-child(5) {
     top: 30px !important;
-    left: -320px !important;
+    left: -330px !important;
   }
 }
 /* HEADER HEADER HEADER HEADER  */
