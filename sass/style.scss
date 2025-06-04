@@ -702,7 +702,44 @@ a {
   }
   .nav-otros li:nth-child(5) {
     top: 30px !important;
-    left: -400px !important;
+    left: -200px !important;
+  }
+}
+@media (max-width: 400px) {
+  .nav-otros li {
+    display: block;
+    position: relative; /* Necesario para que el submenú se posicione correctamente */
+    transition: all 0.3s ease;
+  }
+  .nav-otros li:hover {
+    transform: scale(1.2);
+  }
+  .nav-otros li a {
+    color: #aec9d8;
+    text-decoration: none;
+  }
+  .nav-otros li a:hover {
+    color: #2F3538;
+  }
+  .nav-otros li:nth-child(1) {
+    top: 95px !important;
+    left: -225px !important;
+  }
+  .nav-otros li:nth-child(2) {
+    top: 65px !important;
+    left: -255px !important;
+  }
+  .nav-otros li:nth-child(3) {
+    top: 35px !important;
+    left: -295px !important;
+  }
+  .nav-otros li:nth-child(4) {
+    top: 10px !important;
+    left: -335px !important;
+  }
+  .nav-otros li:nth-child(5) {
+    top: 30px !important;
+    left: -390px !important;
   }
 }
 /* HEADER HEADER HEADER HEADER  */
