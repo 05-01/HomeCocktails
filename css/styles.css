@@ -692,7 +692,7 @@ a {
     left: -270px !important;
   }
 }
-@media (max-width: 480px) {
+@media (max-width: 510px) {
   .nav-otros li {
     display: block;
     position: relative; /* Necesario para que el submenú se posicione correctamente */
@@ -726,7 +726,7 @@ a {
   }
   .nav-otros li:nth-child(5) {
     top: 30px !important;
-    left: -330px !important;
+    left: -400px !important;
   }
 }
 /* HEADER HEADER HEADER HEADER  */
