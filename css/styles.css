@@ -158,23 +158,19 @@ body {
 }
 
 @media (max-width: 1200px) {
-  body {
-    background-color: #aec9d8;
-    background-size: 80% auto;
-    background-position: center;
-    background-repeat: no-repeat;
-    overflow-x: hidden;
-    margin-bottom: 0;
+  html, body {
+    width: 100vw !important;
+    max-width: 100vw !important;
+    overflow-x: hidden !important;
+    position: relative;
   }
 }
 @media (max-width: 992px) {
-  body {
-    background-color: #aec9d8;
-    background-size: 80% auto;
-    background-position: center;
-    background-repeat: no-repeat;
+  html, body {
+    width: 100vw !important;
+    max-width: 100vw !important;
     overflow-x: hidden !important;
-    margin-bottom: 0;
+    position: relative;
   }
 }
 @media (max-width: 600px) {
@@ -267,7 +263,7 @@ a {
 .logo-celeste img {
   position: absolute !important; /* Permite posicionar el logo de manera absoluta */
   top: -200px !important; /* Alinea el logo en la parte superior */
-  left: -170px !important; /*a el logo a 20 píxeles de la izquierda */
+  left: -50px !important; /*a el logo a 20 píxeles de la izquierda */
   padding: 10px !important; /* Espaciado opcional alrededor del logo */
   z-index: 1003 !important; /* Asegúrate de que esté por encima de otros elementos */
   width: 460px !important; /*Eablece el ancho del logo */
@@ -302,15 +298,15 @@ a {
     max-height: 100%; /* Permite que la imagen se escale */
   }
 }
-@media (max-width: 480px) {
+@media (max-width: 600px) {
   .logo-celeste img {
     position: absolute; /* Permite posicionar el logo de manera absoluta */
-    top: -50px !important; /* Alinea el logo en la parte superior */
-    left: 45px !important; /*a el logo a 20 píxeles de la izquierda */
+    top: -60px !important; /* Alinea el logo en la parte superior */
+    left: 0px !important; /*a el logo a 20 píxeles de la izquierda */
     padding: 10px; /* Espaciado opcional alrededor del logo */
     z-index: 1003; /* Asegúrate de que esté por encima de otros elementos */
-    width: 210px !important; /*Eablece el ancho del logo */
-    height: 300px !important; /* Establece el alto del logo */
+    width: 160px !important; /*Eablece el ancho del logo */
+    height: 210px !important; /* Establece el alto del logo */
     max-width: 100%; /* Permite que la imagen se escale */
     max-height: 100%; /* Permite que la imagen se escale */
   }
@@ -497,7 +493,7 @@ a {
 .nav-otros {
   position: absolute;
   top: 25px;
-  left: 1200px !important;
+  left: 900px !important;
   transform: translateX(-50%);
   list-style: none;
   padding: 0;
@@ -646,7 +642,7 @@ a {
     left: 150px !important;
   }
 }
-@media (max-width: 480px) {
+@media (max-width: 600px) {
   .nav-otros li {
     display: block;
     position: relative; /* Necesario para que el submenú se posicione correctamente */
@@ -663,24 +659,24 @@ a {
     color: #2F3538;
   }
   .nav-otros li:nth-child(1) {
-    top: 5px !important;
-    left: -250px !important;
+    top: 95px !important;
+    left: -120px !important;
   }
   .nav-otros li:nth-child(2) {
-    top: 5px !important;
-    left: -275px !important;
+    top: 75px !important;
+    left: -135px !important;
   }
   .nav-otros li:nth-child(3) {
-    top: 5px !important;
-    left: -305px !important;
+    top: 55px !important;
+    left: -155px !important;
   }
   .nav-otros li:nth-child(4) {
-    top: 5px !important;
-    left: -335px !important;
+    top: 35px !important;
+    left: -175px !important;
   }
   .nav-otros li:nth-child(5) {
-    top: 5px !important;
-    left: -365px !important;
+    top: 40px !important;
+    left: -190px !important;
   }
 }
 /* HEADER HEADER HEADER HEADER  */
@@ -1418,25 +1414,25 @@ h3 {
 /* INDEX INDEX INDEX INDEX */
 /*EMPRESA EMPRESA EMPRESA EMPRESA */
 .gente img {
-  width: 700px !important;
+  width: 500px !important;
   position: relative;
-  top: -600px !important;
+  top: -650px !important;
   left: 750px !important;
   margin-bottom: -500px !important;
 }
 
 .empresa h3 {
   position: relative;
-  left: 725px !important;
-  top: -600px !important;
+  left: 525px !important;
+  top: -550px !important;
 }
 
 .fachada img {
   position: relative;
   top: 50px !important;
-  width: 600px !important;
-  height: 500px !important;
-  left: -250px !important;
+  width: 400px !important;
+  height: 400px !important;
+  left: -50px !important;
 }
 
 .texto h3 {
@@ -1460,11 +1456,11 @@ h3 {
   .fachada img {
     width: 450px !important;
     height: 400px !important;
-    top: 30px !important;
+    top: 170px !important;
     left: -80px !important;
   }
   .texto h3 {
-    top: 220px !important;
+    top: 520px !important;
     left: -10px !important;
     font-size: 18px !important;
   }
@@ -1478,7 +1474,7 @@ h3 {
   }
   .empresa h3 {
     left: -30px !important;
-    top: 400px !important;
+    top: -100px !important;
     font-size: 18px !important;
   }
   .fachada img {
@@ -1488,21 +1484,21 @@ h3 {
     left: 220px !important;
   }
   .texto h3 {
-    top: 60px !important;
-    left: -20px !important;
+    top: 560px !important;
+    left: -50px !important;
     font-size: 16px !important;
   }
 }
-@media (max-width: 480px) {
+@media (max-width: 600px) {
   .gente img {
     width: 320px !important;
-    top: -390px !important;
-    left: 140px !important;
-    margin-bottom: -100px !important;
+    top: -1990px !important;
+    left: 120px !important;
+    margin-bottom: -2700px !important;
   }
   .empresa h3 {
-    left: 0px !important;
-    top: -590px !important;
+    left: -40px !important;
+    top: -990px !important;
     font-size: 12px !important;
   }
   .fachada img {
@@ -1513,8 +1509,8 @@ h3 {
     margin-bottom: 1300px;
   }
   .texto h3 {
-    top: -320px !important;
-    left: 0px !important;
+    top: -520px !important;
+    left: -40px !important;
     font-size: 10px !important;
   }
 }
@@ -2908,7 +2904,7 @@ a:hover {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   height: 350px;
   width: 350px;
-  margin-left: 570px;
+  margin-left: 370px;
   justify-content: center;
   align-items: center;
 }
@@ -2944,16 +2940,16 @@ a:hover {
     margin-left: 30px;
   }
 }
-@media (max-width: 480px) {
+@media (max-width: 600px) {
   .contacto-info {
-    margin-left: 70px;
+    margin-left: 150px !important;
     margin-right: auto;
     text-align: center;
     width: 300px;
     height: 300px;
   }
   .contacto-infos {
-    margin-left: 70px;
+    margin-left: 140px;
     margin-right: auto;
     text-align: center;
     margin-top: 15px;
@@ -2974,7 +2970,7 @@ a:hover {
 .contacto-infos i {
   position: absolute;
   bottom: 0;
-  left: 1250px;
+  left: 1055px;
   top: 360px;
   transform: translateX(-50%);
   font-size: 90px;
@@ -3021,7 +3017,7 @@ a:hover {
     color: #E95731;
   }
 }
-@media (max-width: 480px) {
+@media (max-width: 600px) {
   .contacto-info i {
     position: relative;
     top: 90px;
@@ -3404,7 +3400,7 @@ a:hover {
 .footer h3 {
   color: #aec9d8;
   position: relative;
-  left: 150px !important;
+  left: 100px !important;
   font-size: 25px !important;
   top: 260px !important;
 }
@@ -3447,6 +3443,8 @@ a:hover {
   width: 90%;
   max-width: 300px;
   display: block;
+  left: 130px !important;
+  top: 100px !important;
 }
 
 .oferta {
@@ -3462,8 +3460,8 @@ a:hover {
   height: 300px;
   margin: 0 auto;
   position: relative;
-  top: 0;
-  left: 0;
+  top: -100px !important;
+  left: 30px !important;
 }
 
 .mapa iframe {
@@ -3605,15 +3603,15 @@ a:hover {
 @media (max-width: 992px) {
   .footer-copy p {
     position: relative;
-    left: 205px !important;
+    left: 175px !important;
     top: -50px !important;
-    color: #E95731;
+    color: #aec9d8;
     font-size: 15px !important;
   }
   .footer h3 {
     font-size: 25px !important;
     top: -55px !important;
-    left: -70px !important;
+    left: 160px !important;
   }
   .columna {
     width: 45%;
